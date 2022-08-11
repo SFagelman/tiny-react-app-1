@@ -1,0 +1,12 @@
+Functionality:
+
+- Display list of to-do items
+- Scroll bar
+
+- Input box for to-do items
+- Flag for priority of new item
+- Button to submit input to-do
+
+- Mark items as completed
+- Change priority of items
+- Be able to select and delete items (checkbox and "delete" button)
