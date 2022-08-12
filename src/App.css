@@ -1,8 +1,75 @@
+* {
+  /* border: 1px solid; */
+}
+
 .App {
   text-align: center;
+  /* display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 11px; */
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: auto 0;
+  align-items: center;
+  justify-content: center;
+  /* width: 400px; */
 }
 
 h1 {
   border: 1px solid;
   text-align: center;
+  /* display: flex;
+  position: relative;
+  margin: auto 0;
+  align-items: center;
+  justify-content: center;
+  width: 400px; */
+  /* width: fit-content; */
+  /* margin-left: 50%; */
 }
+
+.label {
+  margin-right: 5px;
+}
+
+.add-button {
+  margin-left: 5px;
+}
+
+.list {
+  width: 350px;
+  display: relative;
+  left: 200px;
+  top: 40px;
+  /* border: 1px solid; */
+  width: 200px;
+  padding: 25px;
+  /* border: 4px solid black; */
+  /* margin-left: 200px; */
+  border-radius: 10%;
+
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.list-item {
+  border: 1px dotted;
+}
+
+/* 
+classes:
+title
+sub-title
+list-title
+task-instruction
+label
+input-box
+add-button
+list
+list-title
+list-item
+
+*/

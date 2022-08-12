@@ -1,9 +1,14 @@
 import "./App.css";
+import PageHeader from "./components/PageHeader";
+import ListHeader from "./components/ListHeader";
+import TaskProvider from "./components/TaskProvider";
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO THERE MATE</h1>
+      <PageHeader />
+      <ListHeader />
+      <TaskProvider />
     </div>
   );
 }
