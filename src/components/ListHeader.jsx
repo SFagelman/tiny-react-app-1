@@ -1,7 +1,7 @@
 export default function ListHeader() {
   return (
     <section>
-      <h3 className="list-title">Here's what you have to do:</h3>
+            <h2 className="sub-title">Time to get some stuff done</h2>
     </section>
   );
 }

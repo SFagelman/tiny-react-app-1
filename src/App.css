@@ -1,5 +1,7 @@
 * {
   /* border: 1px solid; */
+  font-family: 'Quicksand', sans-serif;
+
 }
 
 .App {
@@ -9,67 +11,94 @@
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 11px; */
-  display: flex;
-  position: relative;
-  flex-direction: column;
+  display: grid;
+  /* position: relative;
+  flex-direction: column; */
   margin: auto 0;
   align-items: center;
   justify-content: center;
-  /* width: 400px; */
 }
 
-h1 {
-  border: 1px solid;
+.title {
+  /* border: 1px solid; */
   text-align: center;
-  /* display: flex;
-  position: relative;
-  margin: auto 0;
-  align-items: center;
-  justify-content: center;
-  width: 400px; */
-  /* width: fit-content; */
-  /* margin-left: 50%; */
+
+  /* display: flex; */
+  /* position: relative; */
+  /* margin: auto 0; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* width: 400px; */
+  width: fit-content;
+  margin-left: 25%;
 }
+
+.sub-title {
+  
+}
+
+.list-title {
+  
+}
+
+.task-instruction {
+  
+}
+
 
 .label {
   margin-right: 5px;
 }
 
+.input-box {
+ border-radius: 5px;
+}
+
 .add-button {
   margin-left: 5px;
+  border-radius: 5px;
 }
 
 .list {
-  width: 350px;
+  /* width: 350px; */
+  height: 200px;
   display: relative;
   left: 200px;
   top: 40px;
-  /* border: 1px solid; */
-  width: 200px;
-  padding: 25px;
+  border: 1px solid;
+  padding: 30px;
   /* border: 4px solid black; */
   /* margin-left: 200px; */
-  border-radius: 10%;
+  border-radius: 5px;
+  margin: auto 0;
+  /* align-items: center; */
+  /* justify-content: center; */
 
   overflow-y: scroll;
-  height: 200px;
 }
 
 .list-item {
   border: 1px dotted;
+  margin: auto 0;
+  align-items: center;
+  justify-content: center;
 }
 
-/* 
-classes:
-title
-sub-title
-list-title
-task-instruction
-label
-input-box
-add-button
-list
-list-title
-list-item
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
 
-*/
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #c2c9d2;
+}
+
+
+
+
+
+
+
+
+

@@ -12,6 +12,7 @@ export default function TaskProvider() {
   return (
     <>
       <Adder setTasks={setTasks} />
+      <h3 className="list-title">Here's what you have to do:</h3>
       <List tasks={tasks} />
     </>
   );
