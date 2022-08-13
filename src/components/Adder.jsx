@@ -17,7 +17,7 @@ export default function Adder({ setTasks }) {
   };
 
   return (
-    <section>
+    <section className="adder">
       <p className="task-instruction">Add your new task below:</p>
       <form onSubmit={handleSubmit}>
         <label className="label" htmlFor="task-input">
